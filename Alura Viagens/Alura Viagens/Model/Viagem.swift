@@ -12,7 +12,7 @@ class Viagem: NSObject {
     
     // MARK: - Atributos
     
-    let titulo: String
+    @objc let titulo: String
     let quantidadeDias: Int
     let preco: String
     let caminhoImagem: String
